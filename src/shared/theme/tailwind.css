@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer tailwind-base, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer utilities {
+  .p-invalid {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+}
