@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base: "/psiamanda_landingpage",
+  base: "/psiamandafgomes",
   server: {
     host: '0.0.0.0'
   }
