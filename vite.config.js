@@ -10,7 +10,7 @@ export default defineConfig({
     },
   },
   plugins: [react()],
-  base: "/psiamandafgomes",
+  base: "/sobremim",
   server: {
     host: '0.0.0.0'
   }
