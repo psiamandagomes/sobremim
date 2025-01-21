@@ -57,7 +57,7 @@ function App() {
                 </li>
                 <li>
                   <strong>Estudante de Psicologia:</strong> Atualmente cursando
-                  o 6º semestre na UNISO.
+                  o 7º semestre na UNISO.
                 </li>
                 <li>
                   <strong>Experiência Clínica:</strong> Mais de 2 anos de
