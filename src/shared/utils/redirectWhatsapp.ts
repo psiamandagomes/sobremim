@@ -4,7 +4,5 @@ export const redirectToWhatsApp = () => {
     "Olá, tenho interesse e gostaria de mais informações!"
   );
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
-  window.open(whatsappLink, "_blank");
-
-  window.location.reload();
+  window.open(whatsappLink);
 };
