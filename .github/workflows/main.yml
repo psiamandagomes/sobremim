@@ -1,0 +1,23 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # ou o branch que você usa como principal
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Instalar dependências
+        run: yarn install
+
+      - name: Build do projeto
+        run: yarn build
+
+      - name: Deploy para o GitHub Pages
+        run: npx gh-pages -d dist
