@@ -1,9 +1,10 @@
-import ServiceCard from "./shared/components/ServiceCard/ServiceCard";
-import profileImage from "@/shared/assets/profile.png";
+import ServiceCard from "@/shared/components/ServiceCard/ServiceCard";
+import profileImage from "@/shared/assets/profile.jpg";
 import onlineImage from "@/shared/assets/online.png";
 import kidsImage from "@/shared/assets/kids.png";
 import adultsImage from "@/shared/assets/adults.png";
 import teensImage from "@/shared/assets/teens.png";
+
 import "./shared/theme/global.style.css";
 import { redirectToWhatsApp } from "./shared/utils/redirectWhatsapp";
 
