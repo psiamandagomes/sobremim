@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # ou o branch que você usa como principal
+      - main
 
 jobs:
   deploy:
@@ -18,6 +18,11 @@ jobs:
 
       - name: Build do projeto
         run: yarn build
+
+      - name: Configurar usuário do Git
+        run: |
+          git config --global user.email "alexandrebsilva9@gmail.com"
+          git config --global user.name "alexandre-silvaa"
 
       - name: Deploy para o GitHub Pages
         run: npx gh-pages -d dist
