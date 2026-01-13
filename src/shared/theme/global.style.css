@@ -21,3 +21,16 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* Ensure status bar blends with app background and avoid notch overlap on iOS */
+body {
+  background-color: #f9dbdd;
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111827;
+  }
+}

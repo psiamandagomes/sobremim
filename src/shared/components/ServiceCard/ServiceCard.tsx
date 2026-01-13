@@ -22,7 +22,7 @@ export default function ServiceCard({
       <img
         src={image}
         alt={title}
-        className="w-full h-60 bg-white rounded-t-3xl self-center"
+        className="w-full h-96 bg-white rounded-t-3xl object-bottom object-cover"
       />
       <div className="py-10 px-6 flex flex-col h-full justify-between">
         <div className="flex flex-col pb-6 gap-4">
