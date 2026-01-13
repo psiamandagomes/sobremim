@@ -20,7 +20,7 @@ function App() {
             />
           </div>
         </div>
-        <div className="pt-20 pb-12">
+        <div className="py-12">
           <p className="text-[2.5rem] font-semibold pb-10">
             Quando tudo parece pesado demais, é aqui que você pode falar 🤍
           </p>
